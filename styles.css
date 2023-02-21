@@ -67,7 +67,7 @@ a{
 }
 .container{
     width: 1000px;
-    background-color: #FFFFFF;
+    /*  */
     margin-top: 50px;
 }
 .wrapper{
@@ -76,7 +76,9 @@ a{
 .site-list{
     padding: 15px;
     display: flex;
-    /* align-items: center; */
+    background-color: #FFFFFF;
+    box-shadow: 0 15px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
     justify-content: space-between;
 }
 .site-item{
